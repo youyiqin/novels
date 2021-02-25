@@ -1,5 +1,6 @@
 dependencies:
   axios: 0.21.1
+  normalize.css: 8.0.1
   vant: 3.0.6_vue@3.0.6
   vue: 3.0.6
   vue-router: 4.0.4_vue@3.0.6
@@ -395,6 +396,11 @@ packages:
     resolution:
       integrity: sha1-utwmPGsdzxS3HvqoX2q0wdbPx4g=
       tarball: nanoid/download/nanoid-3.1.20.tgz
+  /normalize.css/8.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-m5iiCHOLnMJjTKrLxC0THJdIe/M=
+      tarball: https://registry.npm.taobao.org/normalize.css/download/normalize.css-8.0.1.tgz
   /path-parse/1.0.6:
     dev: true
     resolution:
@@ -658,6 +664,7 @@ specifiers:
   '@vitejs/plugin-vue': ^1.1.4
   '@vue/compiler-sfc': ^3.0.5
   axios: ^0.21.1
+  normalize.css: ^8.0.1
   postcss-pxtorem: ^5.1.1
   typescript: ^4.1.3
   vant: ^3.0.6
